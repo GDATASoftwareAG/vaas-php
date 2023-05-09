@@ -1,0 +1,27 @@
+{
+    "name": "gdata/vaas",
+    "type": "library",
+    "description": "Verdict-as-a-Service (VaaS) is a service that provides a platform for scanning files for malware and other threats. It allows easy integration in your application. With a few lines of code, you can start scanning files for malware.",
+    "version": "4.0.0",
+    "readme": "Readme.md",
+    "keywords": [
+        "antivirus",
+        "malware",
+        "security",
+        "virusscan"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/GDATASoftwareAG/vaas",
+    "require": {
+        "ramsey/uuid": "^4.6",
+        "textalk/websocket": "^1.6",
+        "netresearch/jsonmapper": "^4.1",
+        "guzzlehttp/guzzle": "^7.5",
+        "psr/log": "^1.1 || ^2.0 || ^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "VaasSdk\\": "."
+        }
+    }
+}
